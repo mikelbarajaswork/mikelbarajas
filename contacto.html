@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Mikel Barajas</title>
+  <meta name="description" content="Contacta con Mikel Barajas - Especialista en sistemas informáticos, ciberseguridad y desarrollo web. Consultoría técnica profesional.">
+  <link rel="icon" type="image/png" href="Img/favicon/LogoPersonal.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="header">
+  <div class="container nav-container">
+    <div class="logo"><a href="index.html"><img src="Img\Logo\LogoPersonal.png" alt="Mikel Barajas Logo"></a></div>
+    <nav id="nav">
+      <ul>
+        <li><a href="sobre-mi.html">Blog</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="formacion.html">Formación</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+    <div id="menu-toggle" class="menu-toggle">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<section class="hero-contact">
+  <div class="container">
+    <h1 data-aos="fade-up">Contacto</h1>
+    <p data-aos="fade-up" data-aos-delay="200">Conectemos y trabajemos juntos en tu próximo proyecto</p>
+  </div>
+</section>
+
+<section class="contact-main">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- Información de contacto -->
+      <div class="contact-info-section" data-aos="fade-right">
+        <h2>Información de Contacto</h2>
+        <p>Estoy disponible para proyectos de ciberseguridad, administración de sistemas, desarrollo web y consultoría técnica. Mi compromiso es ofrecer soluciones de calidad que generen valor real.</p>
+        
+        <div class="contact-details">
+          <div class="contact-detail">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>mklbarajas@gmail.com</p>
+              <a href="mailto:mklbarajas@gmail.com">Enviar email</a>
+            </div>
+          </div>
+          
+          <div class="contact-detail">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <p>Perfil profesional</p>
+              <a href="https://linkedin.com/in/mikelbarajas" target="_blank" rel="noopener">Ver perfil</a>
+            </div>
+          </div>
+          
+          <div class="contact-detail">
+            <i class="fas fa-file-pdf"></i>
+            <div>
+              <h3>CV</h3>
+              <p>Descarga mi currículum</p>
+              <a href="Curriculum/CV Mikel Barajas.pdf" download="CV_Mikel_Barajas.pdf">Descargar CV</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="availability">
+          <h3>Disponibilidad</h3>
+          <p>Actualmente disponible para proyectos freelance y consultoría. Tiempo de respuesta: 24-48 horas.</p>
+        </div>
+      </div>
+      
+      <!-- Formulario de contacto -->
+      <div class="contact-form-section" data-aos="fade-left">
+        <h2>Enviar Mensaje</h2>
+        <form action="https://formsubmit.co/mklbarajas@gmail.com" method="POST" class="contact-form-full">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde la web">
+          <input type="hidden" name="_next" value="https://tu-dominio.com/gracias.html">
+          
+          <div class="form-group">
+            <label for="name">Nombre completo *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="company">Empresa/Organización</label>
+            <input type="text" id="company" name="company">
+          </div>
+          
+          <div class="form-group">
+            <label for="service">Tipo de servicio</label>
+            <select id="service" name="service">
+              <option value="">Selecciona un servicio</option>
+              <option value="ciberseguridad">Ciberseguridad</option>
+              <option value="sistemas">Administración de Sistemas</option>
+              <option value="desarrollo">Desarrollo Web</option>
+              <option value="consultoria">Consultoría Técnica</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="budget">Presupuesto aproximado</label>
+            <select id="budget" name="budget">
+              <option value="">Selecciona un rango</option>
+              <option value="<1000">Menos de 1.000€</option>
+              <option value="1000-5000">1.000€ - 5.000€</option>
+              <option value="5000-10000">5.000€ - 10.000€</option>
+              <option value=">10000">Más de 10.000€</option>
+              <option value="consultar">Consultar</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="timeline">Timeline del proyecto</label>
+            <select id="timeline" name="timeline">
+              <option value="">Selecciona un plazo</option>
+              <option value="urgente">Urgente (1-2 semanas)</option>
+              <option value="corto">Corto plazo (1 mes)</option>
+              <option value="medio">Medio plazo (2-3 meses)</option>
+              <option value="largo">Largo plazo (3+ meses)</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Mensaje *</label>
+            <textarea id="message" name="message" rows="6" placeholder="Describe tu proyecto, necesidades o cualquier información relevante..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn-primary btn-submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Servicios destacados -->
+    <div class="services-section" data-aos="fade-up">
+      <h2>Servicios que Ofrezco</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Ciberseguridad</h3>
+          <p>Auditorías de seguridad, análisis de vulnerabilidades, implementación de medidas de protección y formación en seguridad informática.</p>
+          <ul>
+            <li>Análisis con Nmap y Wireshark</li>
+            <li>Penetration testing básico</li>
+            <li>Configuración de firewalls</li>
+            <li>Políticas de seguridad</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <i class="fas fa-server"></i>
+          <h3>Administración de Sistemas</h3>
+          <p>Gestión y mantenimiento de servidores, sistemas operativos y infraestructura tecnológica.</p>
+          <ul>
+            <li>Windows Server</li>
+            <li>Linux (Ubuntu, CentOS)</li>
+            <li>Virtualización</li>
+            <li>Backup y recuperación</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <i class="fas fa-code"></i>
+          <h3>Desarrollo Web</h3>
+          <p>Desarrollo de aplicaciones web modernas, responsive y optimizadas para rendimiento.</p>
+          <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Diseño responsive</li>
+            <li>Optimización SEO</li>
+            <li>Integración de APIs</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Consultoría Técnica</h3>
+          <p>Asesoramiento técnico, análisis de necesidades y propuestas de soluciones tecnológicas.</p>
+          <ul>
+            <li>Análisis de requisitos</li>
+            <li>Arquitectura de soluciones</li>
+            <li>Migración de sistemas</li>
+            <li>Formación técnica</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/mikel-barajas-788205175/" target="_blank" aria-label="LinkedIn" rel="noopener">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0A66C2" viewBox="0 0 24 24"><path d="M4.98 3.5C3.34 3.5 2 4.88 2 6.54c0 1.62 1.29 3 2.98 3s2.98-1.38 2.98-3c0-1.66-1.29-3.04-2.98-3.04zM2 8.95h6v12.05H2V8.95zm7.5 0h5.75v1.68h.08c.8-1.5 2.76-3.08 5.68-3.08 6.07 0 7.18 4 7.18 9.18v10.12h-6V17.75c0-2.17-.04-4.96-3.02-4.96-3.03 0-3.49 2.37-3.49 4.8v8.46h-6V8.95z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/mikel_portu/" target="_blank" aria-label="Instagram" rel="noopener">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E4405F" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm3.5-2.5a1 1 0 110 2 1 1 0 010-2z"/></svg>
+    </a>
+    <a href="https://x.com/Mikel_portu?t=FWmPD4FanWYtQRBfFVQwzg&s=09" target="_blank" aria-label="Twitter" rel="noopener">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#1DA1F2" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14.86A4.48 4.48 0 0022.43.36a9.07 9.07 0 01-2.88 1.1 4.52 4.52 0 00-7.7 4.13 12.84 12.84 0 01-9.3-4.71 4.51 4.51 0 001.4 6.05 4.48 4.48 0 01-2.05-.57v.06a4.5 4.5 0 003.62 4.42 4.49 4.49 0 01-2.04.08 4.53 4.53 0 004.22 3.15 9.06 9.06 0 01-5.6 1.94A9.34 9.34 0 010 19.54a12.75 12.75 0 006.92 2.03c8.3 0 12.85-6.87 12.85-12.85 0-.2 0-.39-.02-.58A9.2 9.2 0 0023 3z"/></svg>
+    </a>
+  </div>
+  <p>&copy; 2025 Mikel Barajas</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/your-code.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
