@@ -260,8 +260,8 @@ Portfolio web personal profesional que muestra las habilidades técnicas, experi
 
 ## 📞 Contacto
 
-- **Email**: mklbarajas@gmail.com
-- **LinkedIn**: [Mikel Barajas](https://linkedin.com/in/mikel-barajas-788205175)
+- **Email**: mikelbarajaswork@gmail.com
+- **LinkedIn**: [Mikel Barajas](https://www.linkedin.com/in/mikel-barajas-15b700399/)
 - **Instagram**: [@mikel_portu](https://www.instagram.com/mikel_portu/)
 - **Twitter**: [@Mikel_portu](https://x.com/Mikel_portu)
 - **Portfolio**: [Ver sitio web](https://tu-dominio.com)
